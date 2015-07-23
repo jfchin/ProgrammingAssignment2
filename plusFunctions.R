@@ -1,6 +1,7 @@
-##function plusFunctions stores two functions:
+## function plusFunctions stores two functions:
 ## plustwo() : sums 2 to the given value
 ## plusthree() : sums 3 to the given value
+
 plusFunctions <- function (){
   plustwo <- function(y) {
     x <- y + 2

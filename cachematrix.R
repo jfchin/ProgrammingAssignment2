@@ -1,6 +1,14 @@
+## There are 2 functions in this program
+##    makeCacheMatrix ()
+##    cacheSolve ()
+
 ## Creates a special "matrix" object that can cache its inverse
 
-## Write a short comment describing this function
+## If the inverse has already been calculated (and the matrix has not 
+## changed), then cacheSolve should retrieve the inverse from the cache.
+
+## Test data 
+## a<-matrix(c(1,0,5,2,1,6,3,4,0),3,3)
 
 makeCacheMatrix <- function(x = matrix()) {
 
